@@ -68,7 +68,6 @@ int getDisplayWidth( jobject mc )
 
 void EnableFly()
 {
-
     jobject capabilities = getPlayerCapabilities( player );
 
     static std::string name = SRG_Utilities::get_obfuscated_field_name( "net/minecraft/entity/player/PlayerCapabilities", CSV_Utilities::get_field_searge_name_by_name( "isFlying", csv_definitions ), srg_file );
